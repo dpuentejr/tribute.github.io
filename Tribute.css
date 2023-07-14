@@ -1,0 +1,114 @@
+/*
+David Puente Jr.
+Semantic HTML Example Page
+CIS133DA: Web Design.Development Level 1
+Mesa Communit College
+June 26, 2023    
+*/
+
+/* Padding and margins for the entire page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Formatting the header labels */
+
+h1, h2, h3, h4 {
+    font-size: 25px;
+    background-color: #1D1D81;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Formatting the body */
+
+body {
+    background-color: #c4c4c4;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Formatting image contatiner  */
+
+.img-container {
+    margin: 1%;
+    padding: 0%;
+    background-color: #1d1d81;
+    border-radius: 10px;
+}
+
+/* Formatting the image */
+
+.musk-image {
+object-fit: contain;
+border-radius: 10px;
+max-width: 60%;
+display: block;
+height: auto;
+margin: auto;
+}
+
+/* Formatting figure caption  */
+
+.figcaption {
+    padding-top: 20px;
+}
+
+/* This is the formatting for background of sections */
+
+.elon {
+    text-align: left;
+    padding: 30px 70px;
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: #1d1d81;
+    border-radius: 10px;
+}
+
+.tesla-info {
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.solar-info {
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.spacex-info {
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 30px;
+}
+
+/* Formatting for section titles */
+
+.bold {
+    font-weight: bolder;
+}
+
+/* Formatting for text area */
+
+li {
+    text-align: left;
+    margin: 20px;
+}
+
+/* This is the footer formatting */
+
+footer a {
+    color: #1d1d81;
+    padding-bottom: 40px;
+}
+address {
+color:#1d1d81
+}
